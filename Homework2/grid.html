@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drift Travel Co. | Destinations</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="flexbox.html" class="logo">
+        <span class="logo-main">DRIFT<span class="logo-accent">.</span></span>
+        <span class="logo-sub">TRAVEL COMPANY</span>
+      </a>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="flexbox.html">Home</a></li>
+          <li><a href="grid.html" class="active">Destinations</a></li>
+          <li><a href="flexbox.html#about">About</a></li>
+          <li><a href="flexbox.html#gallery">Gallery</a></li>
+          <li><a href="flexbox.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <form class="search" action="#">
+        <input type="search" placeholder="Search...">
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Banner -->
+    <section class="banner">
+      <div class="container">
+        <h1>Where Do You Want to Go?</h1>
+        <p>We've got trips on every continent. Beaches, mountains, cities — pick what sounds good and we'll figure out the details.</p>
+        <a href="#featured" class="btn">See What's Available</a>
+      </div>
+    </section>
+
+    <!-- Sidebar + destination cards -->
+    <section class="content-area" id="featured">
+      <div class="container content-layout">
+
+        <aside class="sidebar">
+          <h3>Destinations</h3>
+          <ul>
+            <li><a href="#">All Destinations</a></li>
+            <li><a href="#">Asia</a></li>
+            <li><a href="#">Europe</a></li>
+            <li><a href="#">Americas</a></li>
+            <li><a href="#">Africa</a></li>
+            <li><a href="#">Oceania</a></li>
+          </ul>
+
+          <div class="help-box">
+            <h4>Need Help?</h4>
+            <p>Talk to our travel team</p>
+            <p>303-555-1234</p>
+            <a href="mailto:hello@drifttravel.com">hello@drifttravel.com</a>
+            <br><br>
+            <a href="#" class="btn btn-small">Request Info</a>
+          </div>
+        </aside>
+
+        <div class="main-content">
+          <h2>Featured Destinations</h2>
+          <div class="featured-grid">
+            <article class="dest-card">
+              <img src="images/gallery1.png" alt="Beach with volcano in background">
+              <div class="dest-card-body">
+                <h3>Bali, Indonesia</h3>
+                <p>Beaches, temples, rice fields — Bali has a bit of everything and it never gets old.</p>
+                <a href="#" class="btn btn-small">Learn More</a>
+              </div>
+            </article>
+            <article class="dest-card">
+              <img src="images/gallery2.png" alt="Temple of Heaven in Beijing">
+              <div class="dest-card-body">
+                <h3>Beijing, China</h3>
+                <p>The Great Wall alone is worth the trip, but there's way more to see once you're there.</p>
+                <a href="#" class="btn btn-small">Learn More</a>
+              </div>
+            </article>
+            <article class="dest-card">
+              <img src="images/gallery5.png" alt="Machu Picchu ruins">
+              <div class="dest-card-body">
+                <h3>Cusco, Peru</h3>
+                <p>The Inca Trail to Machu Picchu is a tough hike but honestly one of the best things you can do.</p>
+                <a href="#" class="btn btn-small">Learn More</a>
+              </div>
+            </article>
+            <article class="dest-card">
+              <img src="images/gallery3.png" alt="Northern lights over snowy forest">
+              <div class="dest-card-body">
+                <h3>Lapland, Finland</h3>
+                <p>Northern lights, husky sledding, and glass igloos — it's cold but totally worth it.</p>
+                <a href="#" class="btn btn-small">Learn More</a>
+              </div>
+            </article>
+            <article class="dest-card">
+              <img src="images/gallery4.png" alt="Trekker in Himalayan village">
+              <div class="dest-card-body">
+                <h3>Nepal Himalayas</h3>
+                <p>Nothing really compares to walking through mountain villages with the Himalayas right there.</p>
+                <a href="#" class="btn btn-small">Learn More</a>
+              </div>
+            </article>
+            <article class="dest-card">
+              <img src="images/gallery6.png" alt="Palm tree over turquoise water">
+              <div class="dest-card-body">
+                <h3>Maldives</h3>
+                <p>Crystal clear water, overwater bungalows, and not much to do except relax. That's the point.</p>
+                <a href="#" class="btn btn-small">Learn More</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- News -->
+    <section class="news">
+      <div class="container">
+        <h2 class="section-title">News &amp; Updates</h2>
+        <div class="news-grid">
+          <article class="news-card">
+            <img src="images/news1.png" alt="Hiker at turquoise alpine lake">
+            <div class="news-card-body">
+              <p class="news-date">Sep 28, 2026</p>
+              <h3>10 Spots in the Canadian Rockies Most People Miss</h3>
+              <p>There are some really great trails and lookouts that don't show up in the usual guides.</p>
+              <a href="#" class="btn btn-small">Read More</a>
+            </div>
+          </article>
+          <article class="news-card">
+            <img src="images/news2.png" alt="Snow-covered mountain panorama">
+            <div class="news-card-body">
+              <p class="news-date">Sep 20, 2026</p>
+              <h3>New Winter Trips Are Up</h3>
+              <p>We just added trips to the Alps, Hokkaido, and Patagonia for the winter season.</p>
+              <a href="#" class="btn btn-small">Read More</a>
+            </div>
+          </article>
+          <article class="news-card">
+            <img src="images/news3.png" alt="Golden sunset over ocean waves">
+            <div class="news-card-body">
+              <p class="news-date">Sep 12, 2026</p>
+              <h3>What We're Doing About Sustainability in 2027</h3>
+              <p>We're working on making our trips carbon-neutral and partnering with local businesses more.</p>
+              <a href="#" class="btn btn-small">Read More</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trips -->
+    <section class="events">
+      <div class="container">
+        <h2 class="section-title">Upcoming Trips</h2>
+        <div class="events-grid">
+          <div class="event-card">
+            <div class="event-date-box">
+              <span class="event-month">Nov</span>
+              <span class="event-day">15</span>
+            </div>
+            <div class="event-info">
+              <h4>Finland Northern Lights Tour</h4>
+              <p>7 Days &middot; Helsinki to Lapland</p>
+            </div>
+          </div>
+          <div class="event-card">
+            <div class="event-date-box">
+              <span class="event-month">Dec</span>
+              <span class="event-day">02</span>
+            </div>
+            <div class="event-info">
+              <h4>Patagonia Trekking Trip</h4>
+              <p>10 Days &middot; El Calafate Base Camp</p>
+            </div>
+          </div>
+          <div class="event-card">
+            <div class="event-date-box">
+              <span class="event-month">Jan</span>
+              <span class="event-day">10</span>
+            </div>
+            <div class="event-info">
+              <h4>Bali Culture &amp; Food Trip</h4>
+              <p>12 Days &middot; Ubud to Seminyak</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="quick-links">
+      <div class="container">
+        <h2 class="section-title">Quick Links</h2>
+        <div class="quick-links-grid">
+          <a href="#" class="quick-link-item">
+            <i class="fa-solid fa-plane-departure"></i>
+            <span>Book a Trip</span>
+          </a>
+          <a href="#" class="quick-link-item">
+            <i class="fa-solid fa-book-open"></i>
+            <span>Travel Guides</span>
+          </a>
+          <a href="#" class="quick-link-item">
+            <i class="fa-solid fa-camera"></i>
+            <span>Photo Gallery</span>
+          </a>
+          <a href="#" class="quick-link-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact Us</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="flexbox.html" class="logo">
+        <span class="logo-main">DRIFT<span class="logo-accent">.</span></span>
+        <span class="logo-sub">TRAVEL COMPANY</span>
+      </a>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="flexbox.html">Home</a></li>
+          <li><a href="grid.html">Destinations</a></li>
+          <li><a href="flexbox.html#about">About</a></li>
+          <li><a href="flexbox.html#gallery">Gallery</a></li>
+          <li><a href="flexbox.html#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul>
+          <li>Erie, PA</li>
+          <li><a href="mailto:hello@drifttravel.com">hello@drifttravel.com</a></li>
+          <li><a href="tel:3035551234">303-555-1234</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2026 Drift Travel Co. All rights reserved. Made by Phurba Sherpa.</p>
+  </footer>
+
+</body>
+</html>
